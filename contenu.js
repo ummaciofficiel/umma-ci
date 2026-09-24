@@ -13,7 +13,7 @@
      (laissez "" pour un avis général).
    ============================================================ */
 window.CONTENU = {
-  "conferences: [
+  "conferences": [
     {
       "numero": "9",
       "titre": "",
