@@ -277,6 +277,10 @@ header{transition:box-shadow .3s}header.sc{box-shadow:0 6px 24px rgba(11,74,30,.
 
 <script src="contenu.js"></script>
 <script>
+function fb(i){if(i.dataset.fb)return;var s=i.getAttribute("src")||"";if(/(^|\/)images\//.test(s)&&!/^https?:/i.test(s)){i.dataset.fb=1;i.src=s.replace(/(^|\/)images\//,"$1")}}
+document.addEventListener("error",function(e){if(e.target&&e.target.tagName=="IMG")fb(e.target)},true);
+function fbAll(){Array.prototype.forEach.call(document.images,function(i){if(i.complete&&!i.naturalWidth)fb(i)})}
+fbAll();addEventListener("load",fbAll);
 var V=[["📖","La connaissance","Apprendre le Coran, la Sunnah et les savoirs utiles."],["🕌","La foi","Chercher l’agrément d’Allah dans chaque action."],["🤝","La fraternité","Entraide, respect et solidarité."],["💡","La responsabilité","Chaque membre acteur de sa communauté."],["❤️","Le service","Donner son temps et ses compétences."],["🌍","L’action","De la sensibilisation au terrain."]];
 var A=[["📖","Éducation & sensibilisation","Coran, lecture arabe, tajwid, rappels et enseignements islamiques."],["🎙️","Conférences","Écouter des intervenants, poser ses questions, échanger."],["👥","Jeunesse","Apprendre, échanger et participer à des initiatives utiles."],["🤲","Actions sociales","Solidarité et soutien aux personnes vulnérables."]];
 var M=[["📢","Communauté officielle","Infos, annonces, échanges et actualités importantes.","Rejoindre"],["📣","Canal officiel","Les annonces importantes, sans être noyé dans les discussions.","Accéder au canal"],["📖","Éducation & sensibilisation","Coran, rappels et apprentissage.","Rejoindre"],["👥","Jeunes Leaders","Projets, idées et engagement des jeunes.","Rejoindre"],["🤝","Volontaires","Agir ensemble sur le terrain.","Devenir volontaire"],["❤️","Aide sociale","Solidarité, entraide et soutien.","Découvrir"]];
