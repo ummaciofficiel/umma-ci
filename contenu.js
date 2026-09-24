@@ -140,7 +140,7 @@ window.CONTENU = {
   "reglages": {
     "formulaire": "",
     "sheets": {
-      "conferences": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE_vJwGtmyzbWpjdyvA-niofyRgRSVllCSj2J_zVCw16mpaIuNAo-RX_qXTBzh9pGvoFZonOodIvrR/pub?gid=1285273417&single=true&output=csv",
+      "": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE_vJwGtmyzbWpjdyvA-niofyRgRSVllCSj2J_zVCw16mpaIuNAo-RX_qXTBzh9pGvoFZonOodIvrR/pub?gid=1285273417&single=true&output=csv",
       "rappels": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE_vJwGtmyzbWpjdyvA-niofyRgRSVllCSj2J_zVCw16mpaIuNAo-RX_qXTBzh9pGvoFZonOodIvrR/pub?gid=1196226032&single=true&output=csv",
       "galerie": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE_vJwGtmyzbWpjdyvA-niofyRgRSVllCSj2J_zVCw16mpaIuNAo-RX_qXTBzh9pGvoFZonOodIvrR/pub?gid=923080648&single=true&output=csv",
       "avis": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE_vJwGtmyzbWpjdyvA-niofyRgRSVllCSj2J_zVCw16mpaIuNAo-RX_qXTBzh9pGvoFZonOodIvrR/pub?gid=483397814&single=true&output=csv"
